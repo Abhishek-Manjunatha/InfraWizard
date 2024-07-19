@@ -1,0 +1,132 @@
+### Navigating and Editing Files
+
+1. **`cd /f/Bash_Scripts/`**  
+   Change the current directory to `/f/Bash_Scripts/`.
+
+2. **`ls`**  
+   List the files and directories in the current directory.
+
+3. **`vim remotexecmulti.sh`**  
+   Open the file `remotexecmulti.sh` in the `vim` text editor for editing.
+
+4. **`vim MultiComRemExec.sh`**  
+   Open the file `MultiComRemExec.sh` in the `vim` text editor for editing.
+
+5. **`clear`**  
+   Clear the terminal screen.
+
+### File Management
+
+6. **`cp remotexecmulti.sh remotexecmulti.sh_13123030_1040.bakup`**  
+   Copy the file `remotexecmulti.sh` to `remotexecmulti.sh_13123030_1040.bakup` for backup.
+
+7. **`cp remotexecmulti.sh_13123030_1040.bakup remotexecmulti.sh`**  
+   Restore the backup file `remotexecmulti.sh_13123030_1040.bakup` to `remotexecmulti.sh`.
+
+8. **`cp remotexecmulti.sh remotexecmulti.sh_14123030_1040.bakup`**  
+   Create another backup of `remotexecmulti.sh` as `remotexecmulti.sh_14123030_1040.bakup`.
+
+9. **`cp remotexecmulti.sh remotexecmulti.sh_12113030_1040.bakup`**  
+   Create another backup of `remotexecmulti.sh` as `remotexecmulti.sh_12113030_1040.bakup`.
+
+10. **`cp remotexecmulti.sh remotexecmulti.sh_12103030_1150.bakup`**  
+    Create another backup of `remotexecmulti.sh` as `remotexecmulti.sh_12103030_1150.bakup`.
+
+11. **`cp remotexecmulti.sh remotexecmulti.sh_05103030_1150.bakup`**  
+    Create another backup of `remotexecmulti.sh` as `remotexecmulti.sh_05103030_1150.bakup`.
+
+### Archiving and Cleaning Up
+
+12. **`tar czvf remotexecmulti.Bakup *.bakup`**  
+    Create a compressed tarball archive `remotexecmulti.Bakup` containing all files ending with `.bakup`.
+
+13. **`rm -rf *.bakup`**  
+    Remove all files ending with `.bakup` forcefully and recursively.
+
+### Working with Git Repositories
+
+14. **`cd /f/gitrepos/titanwork/`**  
+    Change the directory to `/f/gitrepos/titanwork/`.
+
+15. **`rm -rf debug.log`**  
+    Remove the file `debug.log` forcefully and recursively.
+
+16. **`git status`**  
+    Show the working tree status.
+
+17. **`git merge sprint1`**  
+    Merge the branch `sprint1` into the current branch.
+
+18. **`git switch sprint1`**  
+    Switch to the branch `sprint1`.
+
+19. **`git push --all origin`**  
+    Push all branches to the remote repository named `origin`.
+
+20. **`git clone https://github.com/imranvisualpath/titanwork.git`**  
+    Clone the repository from the specified URL.
+
+21. **`git checkout jupiter1.rb`**  
+    Discard changes in the working directory for the file `jupiter1.rb`.
+
+22. **`git diff`**  
+    Show changes between the working directory and the index or a tree.
+
+23. **`git rm debug.log`**  
+    Remove the file `debug.log` from the working directory and from Git.
+
+24. **`git add .`**  
+    Add changes in the working directory to the staging area.
+
+25. **`git commit -m "playbook"`**  
+    Commit the staged changes with the message "playbook".
+
+26. **`git diff --cached`**  
+    Show changes between the index and the last commit.
+
+27. **`git restore --staged jupiter1.rb`**  
+    Unstage the file `jupiter1.rb`.
+
+28. **`git log --oneline`**  
+    Show the commit logs in a compact format.
+
+29. **`git diff 358d7f8..a886cb6`**  
+    Show changes between two commits with hashes `358d7f8` and `a886cb6`.
+
+30. **`git revert HEAD`**  
+    Create a new commit that undoes the changes from the last commit.
+
+31. **`git reset --hard 358d7f8`**  
+    Reset the working directory and index to the commit `358d7f8`.
+
+### Other Commands
+
+32. **`history`**  
+    Show the command history.
+
+33. **`cat .git/config`**  
+    Display the contents of the Git configuration file.
+
+34. **`cd`**  
+    Change to the home directory.
+
+35. **`rm -rf .ssh/*`**  
+    Remove all files in the `.ssh` directory forcefully and recursively.
+
+36. **`ssh-keygen.exe`**  
+    Generate a new SSH key pair.
+
+37. **`ls .ssh`**  
+    List the files in the `.ssh` directory.
+
+38. **`cat .ssh/id_rsa.pub`**  
+    Display the contents of the public SSH key.
+
+39. **`cd /f/gitrepos/`**  
+    Change the directory to `/f/gitrepos/`.
+
+40. **`git clone git@github.com:imranvisualpath/titanwork.git`**  
+    Clone the repository from GitHub using SSH.
+
+41. **`rm -rf titanwork`**  
+    Remove the `titanwork` directory forcefully and recursively.
